@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wheelzy.Core", "Wheelzy.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wheelzy.API", "Wheelzy.API\Wheelzy.API.csproj", "{BECDE7A7-F51F-4524-8EAD-9A88B7604FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wheelzy.Test", "Wheelzy.Test\Wheelzy.Test.csproj", "{2D0B5EC4-5F01-4F3C-B613-2441AFAC906C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{BECDE7A7-F51F-4524-8EAD-9A88B7604FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECDE7A7-F51F-4524-8EAD-9A88B7604FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BECDE7A7-F51F-4524-8EAD-9A88B7604FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0B5EC4-5F01-4F3C-B613-2441AFAC906C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0B5EC4-5F01-4F3C-B613-2441AFAC906C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0B5EC4-5F01-4F3C-B613-2441AFAC906C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0B5EC4-5F01-4F3C-B613-2441AFAC906C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

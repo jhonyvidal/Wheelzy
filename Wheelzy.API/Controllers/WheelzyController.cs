@@ -42,10 +42,15 @@ public class WheelzyController : ControllerBase
     {
         try
         {
-            var Order = await _OrderService.GetOrders(dateFrom, dateTo, customerIds, statusIds, isActive);
-            if (Order != null)
+            if (dateTo < dateFrom)
             {
-                return Ok(Order);
+                return BadRequest("End date must be greater than or equal to start date.");
+            }
+
+            var order = await _OrderService.GetOrders(dateFrom, dateTo, customerIds, statusIds, isActive);
+            if (order != null)
+            {
+                return Ok(order);
             }
             else
             {
